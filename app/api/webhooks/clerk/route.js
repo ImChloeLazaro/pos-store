@@ -1,5 +1,5 @@
 import { verifyWebhook } from '@clerk/nextjs/webhooks';
-import { PrismaClient } from "../../../../generated/prisma/client"
+import { PrismaClient } from "../../../generated/prisma/client"
 const prisma = new PrismaClient();
 
 export async function POST(req) {
